@@ -43,7 +43,7 @@ h1 { margin: 0 0 0 -5px; font-size: clamp(58px, 7.4vw, 108px); font-weight: 600;
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; padding-top: 28px; }
 .project { position: relative; min-width: 0; }
 .project-link { display: flex; flex-direction: column; height: 100%; }
-.project-visual { position: relative; overflow: hidden; background: var(--surface); aspect-ratio: 2.5; border: 1px solid #2d3229; transition: background 250ms ease, border-color 250ms ease; }
+.project-visual { position: relative; overflow: hidden; background: var(--surface); aspect-ratio: 2.15; border: 1px solid #2d3229; transition: background 250ms ease, border-color 250ms ease; }
 .mining-visual { background: #1d1e19; }
 .visual-heading, .visual-footer { position: absolute; z-index: 1; left: 24px; right: 24px; display: flex; justify-content: space-between; align-items: center; font-family: var(--mono); font-size: 8px; letter-spacing: 1px; color: #a1a79a; }
 .visual-heading { top: 21px; }
